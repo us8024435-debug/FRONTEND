@@ -1,0 +1,88 @@
+import { Agent } from "@/lib/types";
+
+export const mockAgents: Agent[] = [
+  {
+    id: "agent_001",
+    name: "Aarav Sharma",
+    email: "aarav.sharma@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    role: "admin",
+    status: "online",
+    activeConversations: 8,
+    maxConversations: 20,
+    departments: ["Executive", "Operations", "Sales"],
+    lastActiveAt: "2026-09-28T07:45:00Z",
+    createdAt: "2025-01-15T09:00:00Z",
+  },
+  {
+    id: "agent_002",
+    name: "Pooja Patel",
+    email: "pooja.patel@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    role: "manager",
+    status: "online",
+    activeConversations: 12,
+    maxConversations: 20,
+    departments: ["Customer Success", "Sales"],
+    lastActiveAt: "2026-09-28T07:50:00Z",
+    createdAt: "2025-02-01T10:00:00Z",
+  },
+  {
+    id: "agent_003",
+    name: "Rohan Iyer",
+    email: "rohan.iyer@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    role: "agent",
+    status: "online",
+    activeConversations: 15,
+    maxConversations: 20,
+    departments: ["Support", "Onboarding"],
+    lastActiveAt: "2026-09-28T07:52:00Z",
+    createdAt: "2025-03-10T11:00:00Z",
+  },
+  {
+    id: "agent_004",
+    name: "Ananya Deshmukh",
+    email: "ananya.deshmukh@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+    role: "agent",
+    status: "away",
+    activeConversations: 6,
+    maxConversations: 20,
+    departments: ["Support"],
+    lastActiveAt: "2026-09-28T07:15:00Z",
+    createdAt: "2025-04-12T08:30:00Z",
+  },
+  {
+    id: "agent_005",
+    name: "Vikram Malhotra",
+    email: "vikram.malhotra@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    role: "agent",
+    status: "online",
+    activeConversations: 9,
+    maxConversations: 20,
+    departments: ["Sales", "Enterprise"],
+    lastActiveAt: "2026-09-28T07:48:00Z",
+    createdAt: "2025-05-18T12:00:00Z",
+  },
+  {
+    id: "agent_006",
+    name: "Sneha Nair",
+    email: "sneha.nair@mindclub.org",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    role: "agent",
+    status: "offline",
+    activeConversations: 2,
+    maxConversations: 20,
+    departments: ["Technical Support"],
+    lastActiveAt: "2026-09-27T18:30:00Z",
+    createdAt: "2025-06-20T10:15:00Z",
+  },
+];
